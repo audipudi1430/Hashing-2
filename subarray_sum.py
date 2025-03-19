@@ -2,7 +2,7 @@
 Approach:
 1. Maintain a prefix sum dictionary to keep track of the cumulative sum frequencies.
 2. Iterate through the array while updating the current sum and checking if the difference (curSum - k) exists in the dictionary.
-3. Increment the result count if a valid subarray sum is found and update the prefix sum dictionary accordingly.
+3. Increment the result count if a valid subarray sum is found, update the prefix sum dictionary accordingly.
 '''
 
 # Time Complexity: O(n) (Each element is processed once)
